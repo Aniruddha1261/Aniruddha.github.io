@@ -48,19 +48,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Java Developer",
+    title: "Java",
     icon: web,
   },
   {
-    title: "Computer Vision Developer",
-    icon: mobile,
-  },
-  {
-    title: "Robotics Developer",
+    title: "Computer Vision",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Robotics",
+    icon: mobile,
+  },
+  {
+    title: "Web Development",
     icon: creator,
   },
 ];
@@ -142,10 +142,10 @@ const experiences = [
     iconBg: "#F0F0F0",
     date: "March 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Currently Serving as Mechanical Head at the College Robotics club.",
+      "Managed mentored, and co-conducted Wall-E (Self-Balancing Robot), Mario (3 DOF Robotic Arm) Workshops, and Pixels(Image Processing and Computer Vision) Seminar for over more than 200 freshman students.",
+      "Contribute to Design and Development of Mario(3 DOF Robotic Arm).",
+      "Delivered lectures on Intro to Linear Algebra, CAD Designing, Feedback Controller(PID), Image representation and Image processing using Numpy, Joints, Coupling and Basics of Coding.",
     ],
   },
   {
@@ -157,10 +157,9 @@ const experiences = [
     iconBg: "#F0F0F0",
     date: "June 2022 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed Two Wheeled Self Balancing Robot with a mechanism to alter the bot's centre of gravity in SolidWorks.",
+      "Designed and fabricated a customized gearbox to align the wheels driven by parallel motors",
+      "Implemented the concept of Self Balancing Robot on Hardware using a Proportiona Integral Derivative control strategy for balancing the robot with a variable CG.",
     ],
   },
   {
@@ -168,12 +167,12 @@ const experiences = [
     company_name: "E-Yantra, IIT Bombay",
     icon: starbucks,
     iconBg: "#F0F0F0",
-    date: "Jan 2021 - Feb 2022",
+    date: "October 2021 - April 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed a dairy bike with a two-wheeled Self Balancing Robot with an Arm for picking and placing dairy goods.",
+      "Implemented Langrangian Equations and Control Theory to Build mathmatical model for simulation in CoppeliaSim.",
+      "Inverse Kinematics was used for pick-and-place operations using the bike's arm.",
+      "We used a Linear Quadratic Regulator Control strategy for balancing the robot equipped with a Reaction Wheel Mechanism.",
     ],
   },
 ];
