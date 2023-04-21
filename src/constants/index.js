@@ -135,24 +135,11 @@ const experiences = [
   //     "Participating in code reviews and providing constructive feedback to other developers.",
   //   ],
   // },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
   {
     title: "Mechanical Head",
     company_name: "SRA: Society of Robotics and Automation",
     icon: tesla,
-    iconBg: "#383E56",
+    iconBg: "#F0F0F0",
     date: "March 2021 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -163,12 +150,25 @@ const experiences = [
   },
   {
     // write and edit about your previous work experience here
-    title: "eYSIP intern",
-    company_name: "eYantra IIT Bombay",
+    title: "e-YSIP intern",
+    company_name: "E-Yantra, IIT Bombay",
     // change icon by adding images into assets folder
     icon: starbucks,
-    iconBg: "#383E56",
+    iconBg: "#F0F0F0",
     date: "June 2022 - July 2022",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "E-YRC 2021-22",
+    company_name: "E-Yantra, IIT Bombay",
+    icon: starbucks,
+    iconBg: "#F0F0F0",
+    date: "Jan 2021 - Feb 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
