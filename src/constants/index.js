@@ -60,7 +60,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Web Development",
+    title: "3D Designing",
     icon: creator,
   },
 ];
@@ -206,67 +206,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Inner Working of Computer Vision",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "To understand the basics of image processing and OpenCv while exploring the working of computer vision. Implementing image processing algorithms from scratch using Python",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "OpenCv",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Image Processing",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Aniruddha1261/Peeping-Into-Inner-Working-Of-Computer-Vision",
   },
   {
-    name: "Job IT",
+    name: "Dairy Bike",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developing a Self-Balancig Bike, which will deliver various items throughout the cityspace. The delivery order will be decided by the priority of the package, thus posing a challenge in path planning. Use LQR Controller design to self-balance the Bike",
     tags: [
       {
-        name: "react",
+        name: "LQR",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Self-Balancing Robot",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "3D Designing",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Jash-Shah/Dairy-Bike-E-Yantra",
   },
   {
-    name: "Trip Guide",
+    name: "Quadruped-gait-analysis",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Designing and launching the 3D CAD model of a Quadruped a 4-legged robot in Gazebo to study it's gaits, in order to move the quadruped each leg has a hip joint and a knee joint.",
     tags: [
       {
-        name: "nextjs",
+        name: "CAD Designing",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "ROS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Gazebo",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Aniruddha1261/Quadruped-gait-analysis-ros",
   },
 ];
 
