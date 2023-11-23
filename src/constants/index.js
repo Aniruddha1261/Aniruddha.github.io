@@ -20,6 +20,7 @@ import {
   github,
   figma,
   docker,
+  siemens,
   meta,
   python,
   starbucks,
@@ -120,29 +121,44 @@ const technologies = [
 ];
 
 const experiences = [
-  // {
-  //   // write and edit about your previous work experience here
-  //   title: "eYSIP intern",
-  //   company_name: "eYantra IIT Bombay",
-  //   // change icon by adding images into assets folder
-  //   icon: starbucks,
-  //   iconBg: "#383E56",
-  //   date: "June 2022 - July 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
   {
-    title: "Mechanical Head",
+    // write and edit about your previous work experience here
+    title: "GSoC Contributor",
+    company_name: "Google Summer of Code",
+    // change icon by adding images into assets folder
+    icon: meta,
+    iconBg: "#F0F0F0",
+    date: "May 2023 - Present",
+    points: [
+      "The OSAVC documentation project for GSoC 2023 aims to create comprehensive documentation for a new user of the OSAVC controller.",
+      "The project will involve working closely with one of the mentors and incrementally documenting the various procedures starting from a fresh OSAVC controller to a fully-implemented application for a vehicle.",
+      "To address the global supply chain issues, a new board on a networked device will be set up that can program the OSAVC remotely.",
+      "The project will begin with testing each sensor and interface and move on to more complex applications, with documentation created at each step.",
+    ],
+  },
+  {
+    // write and edit about your previous work experience here
+    title: "Intern",
+    company_name: "Siemens",
+    // change icon by adding images into assets folder
+    icon: siemens,
+    iconBg: "#F0F0F0",
+    date: "July 2023 - Jan 2024",
+    points: [
+      "Analyzing diverse AC and DC contactor manufacturing data for global and asian markets, refining production strategies.",
+      "Managing customer order data, aligning order value with production volume to track progress effectively.",
+      "Maintaining detail production records and part details using Excel sheets for future reference.",
+      "Applying Power BI tools to extract insights from data, contributing to enhanced production decision-making",
+    ],
+  },
+  {
+    title: "Senior Core Member",
     company_name: "SRA: Society of Robotics and Automation",
     icon: tesla,
-    iconBg: "#F0F0F0",
+    iconBg: "#000000",
     date: "March 2021 - Present",
     points: [
-      "Currently Serving as Mechanical Head at the College Robotics club.",
+      "Currently Serving as Senior Core Member at the College Robotics club.",
       "Managed mentored, and co-conducted Wall-E (Self-Balancing Robot), Mario (3 DOF Robotic Arm) Workshops, and Pixels(Image Processing and Computer Vision) Seminar for over more than 200 freshman students.",
       "Contribute to Design and Development of Mario(3 DOF Robotic Arm).",
       "Delivered lectures on Intro to Linear Algebra, CAD Designing, Feedback Controller(PID), Image representation and Image processing using Numpy, Joints, Coupling and Basics of Coding.",
